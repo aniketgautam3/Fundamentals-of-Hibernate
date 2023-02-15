@@ -25,9 +25,9 @@ public class App
         SessionFactory sessionFactory=cfg.buildSessionFactory();
         
         Student st=new Student();
-        st.setId(121);
-        st.setName("Gautam");
-        st.setCity("Sikkim");
+        st.setId(1001);
+        st.setName("Aniket Gautam");
+        st.setCity("Dalsinghsarai");
         System.out.println(st);
         
         Session session=sessionFactory.openSession();
